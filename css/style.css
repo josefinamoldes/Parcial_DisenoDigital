@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Schoolbell&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    background-color: #FFF8E1;
+    color: #3D3A3A;
+    line-height: normal;
+}
+
+/*párrafos*/
+p {
+    font-size: 1em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 60px;
+}
+
+/*imagenes*/
+img {
+    width: 40%;
+    border: 2px solid black;
+}
+
+/*h*/
+h1, h2, h3 {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.68em;
+  color: #156025;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+    margin-left: 90px;
+}
+
+h2 {
+    font-size: 2.43em;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 100px;
+    width: 47%;
+    text-align: right;
+}
+
+/*link*/
+a {
+    text-decoration: none;
+    color: #3D3A3A;
+    border: 1px solid;
+    padding: 0.5em 1em;
+    margin-left: 90px;
+}
+
+a:hover {
+    border-style: dashed;
+    background-color: #156025;
+    color: #FFF8E1;
+}
+
+/*first section*/
+#firstSection img {
+    width: 40%;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#firstSection p {
+    font-weight: 600;
+    width: 40%;
+}
+
+div {
+    width: 83.33%;
+}
+
+div div {
+    width: 83.33%;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+}
+
+/*second section*/
+#secondSection img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 60px;
+}
+
+/*third section*/
+#thirdSection img {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#thirdSection div div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+
+#thirdSection p{
+    width: 40%;
+}
+
+footer {
+    background-color: #156025;
+    width: 100%;
+    height: 150px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 13px; /*0.81em*/
+    }
+    }
+
+    
